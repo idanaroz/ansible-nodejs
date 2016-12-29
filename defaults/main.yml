@@ -17,5 +17,5 @@ nodejs_default_in_apt: "0.12"
 nodejs_default_in_yum: "0.10"
 
 nodejs4_nodesource_rpm: https://rpm.nodesource.com/pub_4.x/el/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/nodesource-release-el{{ ansible_distribution_major_version }}-1.noarch.rpm
-nodejs5_nodesource_rpm: https://rpm.nodesource.com/pub_4.x/el/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/nodesource-release-el{{ ansible_distribution_major_version }}-1.noarch.rpm
-nodejs6_nodesource_rpm: https://rpm.nodesource.com/pub_4.x/el/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/nodesource-release-el{{ ansible_distribution_major_version }}-1.noarch.rpm
+nodejs5_nodesource_rpm: https://rpm.nodesource.com/pub_5.x/el/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/nodesource-release-el{{ ansible_distribution_major_version }}-1.noarch.rpm
+nodejs6_nodesource_rpm: https://rpm.nodesource.com/pub_6.x/el/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/nodesource-release-el{{ ansible_distribution_major_version }}-1.noarch.rpm
